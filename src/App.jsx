@@ -5,10 +5,10 @@ import Person from "./Person";
 const App = () => {
 
 
-return <>
+return <main>
   
  <Person data={data} />
-  </>
+  </main>
   
   
   

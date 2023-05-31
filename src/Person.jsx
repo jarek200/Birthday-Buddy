@@ -17,8 +17,8 @@ export default function Person( {data}) {
           </div>
         </article>
       })}
-     {people.length > 0 ? <button  className='btn'onClick={() => setPeople([])}>Clear All</button> :
-      <button className='btn'onClick={() => setPeople(data)}>Reset All</button>}
+     {people.length > 0 ? <button  className='btn btn-block'onClick={() => setPeople([])}>Clear All</button> :
+      <button className='btn btn-block'onClick={() => setPeople(data)}>Reset All</button>}
       </div>
   )
 

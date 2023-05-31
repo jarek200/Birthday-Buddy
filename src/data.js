@@ -29,10 +29,4 @@ export default [
     age: 29,
     image: 'https://www.course-api.com/images/people/person-5.jpeg',
   },
-  {
-    id: 6,
-    name: 'Lola Gardner',
-    age: 29,
-    image: 'https://www.course-api.com/images/people/person-5.jpeg',
-  },
 ]
